@@ -1,12 +1,39 @@
 # Kaggle-HCT-Survival-Predictions
-CIBMTR - Equity in post-HCT Survival Predictions
+[CIBMTR - Equity in post-HCT Survival Predictions](https://www.kaggle.com/competitions/equity-post-HCT-survival-predictions/)
 
 
-#### steps
+## Survival Prediction for HCT Patients
 
+This project aims to improve survival predictions for patients undergoing allogeneic Hematopoietic Cell Transplantation (HCT). Many existing models fail to consider disparities based on socioeconomic status, race, and geography. Our goal is to develop accurate and fair predictive models that work well for all patient groups.
+
+Using synthetic data, we will build machine learning models that enhance both precision and fairness in survival predictions. This will help ensure equitable healthcare outcomes for diverse patients and improve trust in medical predictions.
+
+### 🚀 Key Focus:
+
+Improve accuracy of survival predictions.
+Reduce biases related to race, location, and socioeconomic factors.
+Use synthetic data to protect patient privacy.
+Ensure fair and ethical AI in healthcare.
+This project contributes to a more just and effective healthcare system, ensuring every patient gets the best possible care. 💙
+
+
+
+## Evaluation
+#### Evaluation Criteria
+The evaluation of prediction accuracy in the competition will involve a specialized metric known as the Stratified Concordance Index (C-index), adapted to consider different racial groups independently. This method allows us to gauge the predictive performance of models in a way that emphasizes equitability across diverse patient populations, particularly focusing on racial disparities in transplant outcomes.
+
+#### Concordance index
+It represents the global assessment of the model discrimination power: this is the model’s ability to correctly provide a reliable ranking of the survival times based on the individual risk scores. It can be computed with the following formula:
+![alt text](image.png)
+
+
+
+
+## Steps:
+0. Download [Anaconda](https://www.anaconda.com/download)
 1. Download [VsCode](https://code.visualstudio.com/download)
-2. Download [GitHub](https://git-scm.com/downloads)
-3. Open [github](https://github.com/)
+2. Download [GitHub cmd interfece (git)](https://git-scm.com/downloads)
+3. Open [Github website](https://github.com/)
 4. Create Repository [Kaggle-HCT-Survival-Predictions](https://github.com/sourabhprajapati22/Kaggle-HCT-Survival-Predictions)
 5. Clone Repository
     ```
@@ -58,4 +85,41 @@ CIBMTR - Equity in post-HCT Survival Predictions
     │── LICENSE                   # Open-source license (e.g., MIT)
     ```
 
-9.
+9. git actions taken
+    ```
+    git remote -v
+    git remote add origin https://github.com/sourabhprajapati22/Kaggle-HCT-Survival-Predictions.git
+    git add .
+    git commit -m "Complete the template.py file"
+    git push orgin main
+    ```
+11. download required packages
+    ```
+    create file requirements.txt
+    -numpy
+    -pandas
+    -matplotlib
+    -seaborn
+    -scikit-learn
+    -catboost
+    -lightgbm
+    -xgboost
+    -lifelines
+    pip install -r requirements.txt
+    ```
+10. Data handling
+    ```
+    Download Data manually.
+    You cans also download using kaggle API key.
+    Download and upload in data/raw folder.
+    ```
+12. Exploratry Data Analysis
+    ```
+    numerical_col=['donor_age','age_at_hct','year_hct','efs_time']
+    target_col='efs'
+    categorical_col=others
+
+    I observed that all categorical columns are imbalanced. If I apply any fold or data-splitting technique, the model will be trained on imbalanced categorical features. To address this, I use One-Hot Encoding for categorical columns to ensure a balanced representation of all categories.
+
+    ```
+13. 
