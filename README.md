@@ -122,4 +122,13 @@ It represents the global assessment of the model discrimination power: this is t
     I observed that all categorical columns are imbalanced. If I apply any fold or data-splitting technique, the model will be trained on imbalanced categorical features. To address this, I use One-Hot Encoding for categorical columns to ensure a balanced representation of all categories.
 
     ```
-13. 
+13. Feature Engineering
+    ```
+    1. Feature encoding (One-Hot encoder)
+    2. Feature scaling (Standard Scaler)
+    3. Dimensionality reduction (PCA, TSNE, UMAP)
+    4. Feature Selection (explore in model training directly)
+    ```
+
+## Citation  
+If you use this work, please cite it as shown in [`CITATION.bib`](CITATION.bib).

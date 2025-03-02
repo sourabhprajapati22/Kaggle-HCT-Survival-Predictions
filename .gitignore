@@ -136,7 +136,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# user mentioned
 HCT-Survival/data/
+HCT-Survival/feature_store/
 
 # Spyder project settings
 .spyderproject

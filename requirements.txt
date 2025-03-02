@@ -8,3 +8,4 @@ lightgbm
 xgboost
 ipykernel
 lifelines
+umap-learn
