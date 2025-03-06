@@ -52,6 +52,7 @@ It represents the global assessment of the model discrimination power: this is t
     ```
     conda create --prefix ./venv python==3.8 -y
     conda activate ./venv
+    
     ```
 
 8. Create template.py
@@ -91,7 +92,7 @@ It represents the global assessment of the model discrimination power: this is t
     git remote add origin https://github.com/sourabhprajapati22/Kaggle-HCT-Survival-Predictions.git
     git add .
     git commit -m "Complete the template.py file"
-    git push orgin main
+    git push origin main
     ```
 11. download required packages
     ```
@@ -104,7 +105,10 @@ It represents the global assessment of the model discrimination power: this is t
     -catboost
     -lightgbm
     -xgboost
+    -ipykernel
     -lifelines
+    -umap-learn
+    -pyFFM
     pip install -r requirements.txt
     ```
 10. Data handling
@@ -129,6 +133,21 @@ It represents the global assessment of the model discrimination power: this is t
     3. Dimensionality reduction (PCA, TSNE, UMAP)
     4. Feature Selection (explore in model training directly)
     ```
+14. Model Training
+    ```
+    conda install -c conda-forge ipywidgets //for jupyter notebook run properly
+    OneHotEncoder, StandardScaler, PCA
+    drop imbalanced columns
+    use StratifiedGroupKFold
 
+    ```
+15. Final Evaluation and Result (Kaggle Score)
+    **Tag**         | **Models** | **Public_Score** | **Private_score**  
+    ---             | --- | ---     | ---
+    voting_2        | cat+xgb+rg+lgbm    | 0.670 | 0.674 
+    voting_3        | cat+xgb+lgbm       | 0.672 | 0.676
+    voting_4        | cat+lgbm           | 0.671 | 0.673 
+    voting_2+3+4    |       -            | 0.672 | 0.675
+    
 ## Citation  
 If you use this work, please cite it as shown in [`CITATION.bib`](CITATION.bib).

@@ -6,6 +6,7 @@ project_name='HCT-Survival'
 list_of_files=[
     f'{project_name}/data/raw/',
     f'{project_name}/data/processed/',
+    f'{project_name}/feature_store/'
     f'{project_name}/notebooks/eda.ipynb',
     f'{project_name}/notebooks/feature_engineering.ipynb',
     f'{project_name}/notebooks/model_training.ipynb',

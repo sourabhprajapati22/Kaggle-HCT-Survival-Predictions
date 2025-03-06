@@ -1,0 +1,198 @@
+{
+    "_comment": "efs==1&efs_time<7.2",
+    "full_result": [
+        {
+            "fold": 1,
+            "result": [
+                {
+                    "name": "Voting_Classifier_2",
+                    "metrics": {
+                        "f1_score": 0.627,
+                        "roc_auc_score": 0.659,
+                        "concordance_index_score": 0.672,
+                        "race_score": [
+                            0.678,
+                            0.665
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_3",
+                    "metrics": {
+                        "f1_score": 0.632,
+                        "roc_auc_score": 0.662,
+                        "concordance_index_score": 0.675,
+                        "race_score": [
+                            0.682,
+                            0.668
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_4",
+                    "metrics": {
+                        "f1_score": 0.624,
+                        "roc_auc_score": 0.654,
+                        "concordance_index_score": 0.668,
+                        "race_score": [
+                            0.674,
+                            0.662
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "fold": 2,
+            "result": [
+                {
+                    "name": "Voting_Classifier_2",
+                    "metrics": {
+                        "f1_score": 0.609,
+                        "roc_auc_score": 0.66,
+                        "concordance_index_score": 0.682,
+                        "race_score": [
+                            0.682
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_3",
+                    "metrics": {
+                        "f1_score": 0.613,
+                        "roc_auc_score": 0.665,
+                        "concordance_index_score": 0.683,
+                        "race_score": [
+                            0.683
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_4",
+                    "metrics": {
+                        "f1_score": 0.606,
+                        "roc_auc_score": 0.659,
+                        "concordance_index_score": 0.679,
+                        "race_score": [
+                            0.679
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "fold": 3,
+            "result": [
+                {
+                    "name": "Voting_Classifier_2",
+                    "metrics": {
+                        "f1_score": 0.688,
+                        "roc_auc_score": 0.672,
+                        "concordance_index_score": 0.686,
+                        "race_score": [
+                            0.686
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_3",
+                    "metrics": {
+                        "f1_score": 0.687,
+                        "roc_auc_score": 0.674,
+                        "concordance_index_score": 0.686,
+                        "race_score": [
+                            0.686
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_4",
+                    "metrics": {
+                        "f1_score": 0.68,
+                        "roc_auc_score": 0.667,
+                        "concordance_index_score": 0.682,
+                        "race_score": [
+                            0.682
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "fold": 4,
+            "result": [
+                {
+                    "name": "Voting_Classifier_2",
+                    "metrics": {
+                        "f1_score": 0.697,
+                        "roc_auc_score": 0.664,
+                        "concordance_index_score": 0.656,
+                        "race_score": [
+                            0.656
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_3",
+                    "metrics": {
+                        "f1_score": 0.695,
+                        "roc_auc_score": 0.665,
+                        "concordance_index_score": 0.658,
+                        "race_score": [
+                            0.658
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_4",
+                    "metrics": {
+                        "f1_score": 0.694,
+                        "roc_auc_score": 0.661,
+                        "concordance_index_score": 0.655,
+                        "race_score": [
+                            0.655
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "fold": 5,
+            "result": [
+                {
+                    "name": "Voting_Classifier_2",
+                    "metrics": {
+                        "f1_score": 0.652,
+                        "roc_auc_score": 0.661,
+                        "concordance_index_score": 0.672,
+                        "race_score": [
+                            0.672
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_3",
+                    "metrics": {
+                        "f1_score": 0.654,
+                        "roc_auc_score": 0.662,
+                        "concordance_index_score": 0.672,
+                        "race_score": [
+                            0.672
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_4",
+                    "metrics": {
+                        "f1_score": 0.649,
+                        "roc_auc_score": 0.658,
+                        "concordance_index_score": 0.669,
+                        "race_score": [
+                            0.669
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

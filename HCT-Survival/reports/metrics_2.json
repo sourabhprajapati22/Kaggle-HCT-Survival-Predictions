@@ -1,0 +1,366 @@
+{
+    "_comment": " ",
+    "full_result": [
+        {
+            "fold": 1,
+            "result": [
+                {
+                    "name": "CatBoost",
+                    "metrics": {
+                        "f1_score": 0.717,
+                        "roc_auc_score": 0.689,
+                        "concordance_index_score": 0.662,
+                        "race_score": [
+                            0.673,
+                            0.652
+                        ]
+                    }
+                },
+                {
+                    "name": "LGBMClassifier",
+                    "metrics": {
+                        "f1_score": 0.716,
+                        "roc_auc_score": 0.688,
+                        "concordance_index_score": 0.658,
+                        "race_score": [
+                            0.669,
+                            0.648
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_1",
+                    "metrics": {
+                        "f1_score": 0.715,
+                        "roc_auc_score": 0.685,
+                        "concordance_index_score": 0.656,
+                        "race_score": [
+                            0.666,
+                            0.646
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_2",
+                    "metrics": {
+                        "f1_score": 0.717,
+                        "roc_auc_score": 0.688,
+                        "concordance_index_score": 0.659,
+                        "race_score": [
+                            0.669,
+                            0.649
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_3",
+                    "metrics": {
+                        "f1_score": 0.715,
+                        "roc_auc_score": 0.688,
+                        "concordance_index_score": 0.66,
+                        "race_score": [
+                            0.67,
+                            0.649
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_4",
+                    "metrics": {
+                        "f1_score": 0.72,
+                        "roc_auc_score": 0.692,
+                        "concordance_index_score": 0.662,
+                        "race_score": [
+                            0.673,
+                            0.651
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "fold": 2,
+            "result": [
+                {
+                    "name": "CatBoost",
+                    "metrics": {
+                        "f1_score": 0.671,
+                        "roc_auc_score": 0.679,
+                        "concordance_index_score": 0.671,
+                        "race_score": [
+                            0.671
+                        ]
+                    }
+                },
+                {
+                    "name": "LGBMClassifier",
+                    "metrics": {
+                        "f1_score": 0.669,
+                        "roc_auc_score": 0.677,
+                        "concordance_index_score": 0.667,
+                        "race_score": [
+                            0.667
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_1",
+                    "metrics": {
+                        "f1_score": 0.67,
+                        "roc_auc_score": 0.677,
+                        "concordance_index_score": 0.666,
+                        "race_score": [
+                            0.666
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_2",
+                    "metrics": {
+                        "f1_score": 0.671,
+                        "roc_auc_score": 0.678,
+                        "concordance_index_score": 0.668,
+                        "race_score": [
+                            0.668
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_3",
+                    "metrics": {
+                        "f1_score": 0.667,
+                        "roc_auc_score": 0.677,
+                        "concordance_index_score": 0.669,
+                        "race_score": [
+                            0.669
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_4",
+                    "metrics": {
+                        "f1_score": 0.676,
+                        "roc_auc_score": 0.683,
+                        "concordance_index_score": 0.671,
+                        "race_score": [
+                            0.671
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "fold": 3,
+            "result": [
+                {
+                    "name": "CatBoost",
+                    "metrics": {
+                        "f1_score": 0.751,
+                        "roc_auc_score": 0.683,
+                        "concordance_index_score": 0.673,
+                        "race_score": [
+                            0.673
+                        ]
+                    }
+                },
+                {
+                    "name": "LGBMClassifier",
+                    "metrics": {
+                        "f1_score": 0.75,
+                        "roc_auc_score": 0.68,
+                        "concordance_index_score": 0.667,
+                        "race_score": [
+                            0.667
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_1",
+                    "metrics": {
+                        "f1_score": 0.749,
+                        "roc_auc_score": 0.676,
+                        "concordance_index_score": 0.665,
+                        "race_score": [
+                            0.665
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_2",
+                    "metrics": {
+                        "f1_score": 0.752,
+                        "roc_auc_score": 0.679,
+                        "concordance_index_score": 0.668,
+                        "race_score": [
+                            0.668
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_3",
+                    "metrics": {
+                        "f1_score": 0.752,
+                        "roc_auc_score": 0.684,
+                        "concordance_index_score": 0.669,
+                        "race_score": [
+                            0.669
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_4",
+                    "metrics": {
+                        "f1_score": 0.751,
+                        "roc_auc_score": 0.682,
+                        "concordance_index_score": 0.672,
+                        "race_score": [
+                            0.672
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "fold": 4,
+            "result": [
+                {
+                    "name": "CatBoost",
+                    "metrics": {
+                        "f1_score": 0.773,
+                        "roc_auc_score": 0.666,
+                        "concordance_index_score": 0.632,
+                        "race_score": [
+                            0.632
+                        ]
+                    }
+                },
+                {
+                    "name": "LGBMClassifier",
+                    "metrics": {
+                        "f1_score": 0.778,
+                        "roc_auc_score": 0.67,
+                        "concordance_index_score": 0.633,
+                        "race_score": [
+                            0.633
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_1",
+                    "metrics": {
+                        "f1_score": 0.777,
+                        "roc_auc_score": 0.663,
+                        "concordance_index_score": 0.629,
+                        "race_score": [
+                            0.629
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_2",
+                    "metrics": {
+                        "f1_score": 0.778,
+                        "roc_auc_score": 0.665,
+                        "concordance_index_score": 0.631,
+                        "race_score": [
+                            0.631
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_3",
+                    "metrics": {
+                        "f1_score": 0.774,
+                        "roc_auc_score": 0.668,
+                        "concordance_index_score": 0.633,
+                        "race_score": [
+                            0.633
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_4",
+                    "metrics": {
+                        "f1_score": 0.777,
+                        "roc_auc_score": 0.668,
+                        "concordance_index_score": 0.634,
+                        "race_score": [
+                            0.634
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "fold": 5,
+            "result": [
+                {
+                    "name": "CatBoost",
+                    "metrics": {
+                        "f1_score": 0.722,
+                        "roc_auc_score": 0.676,
+                        "concordance_index_score": 0.661,
+                        "race_score": [
+                            0.661
+                        ]
+                    }
+                },
+                {
+                    "name": "LGBMClassifier",
+                    "metrics": {
+                        "f1_score": 0.717,
+                        "roc_auc_score": 0.67,
+                        "concordance_index_score": 0.653,
+                        "race_score": [
+                            0.653
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_1",
+                    "metrics": {
+                        "f1_score": 0.72,
+                        "roc_auc_score": 0.671,
+                        "concordance_index_score": 0.655,
+                        "race_score": [
+                            0.655
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_2",
+                    "metrics": {
+                        "f1_score": 0.721,
+                        "roc_auc_score": 0.672,
+                        "concordance_index_score": 0.658,
+                        "race_score": [
+                            0.658
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_3",
+                    "metrics": {
+                        "f1_score": 0.718,
+                        "roc_auc_score": 0.674,
+                        "concordance_index_score": 0.658,
+                        "race_score": [
+                            0.658
+                        ]
+                    }
+                },
+                {
+                    "name": "Voting_Classifier_4",
+                    "metrics": {
+                        "f1_score": 0.721,
+                        "roc_auc_score": 0.674,
+                        "concordance_index_score": 0.659,
+                        "race_score": [
+                            0.659
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
