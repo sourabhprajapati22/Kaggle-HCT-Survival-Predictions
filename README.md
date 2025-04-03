@@ -144,7 +144,7 @@ It represents the global assessment of the model discrimination power: this is t
 15. Final Evaluation and Result (Kaggle Score)
     **Tag**         | **Models** | **Public_Score** | **Private_score**  
     ---             | --- | ---     | ---
-    voting_2        | cat+xgb+rg+lgbm    | 0.670 | 0.674 
+    voting_2        | cat+xgb+rf+lgbm    | 0.670 | 0.674 
     voting_3        | cat+xgb+lgbm       | 0.672 | 0.676
     voting_4        | cat+lgbm           | 0.671 | 0.673 
     voting_2+3+4    |       -            | 0.672 | 0.675
